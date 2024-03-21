@@ -11,11 +11,10 @@
 }
 
 header{
-    height: 80px;
+    height: auto;
     width: 100%;
     background-color: rgb(153, 151, 146);
-    padding: 20px;
-    font-size: 22px;
+
     
 }
 .navbar-brand{
@@ -90,13 +89,13 @@ header{
 h1{
     color: #f7e6f0;
     text-align: center;
-    font-size: 150px;
+    font-size: 10vw; 
 }
 
 h2{
     color: #db607f;
     text-align: center;
-    font-size: 150px;
+    font-size: 10vw;
     font-family:Ruthligos; 
 }
 
@@ -107,32 +106,30 @@ h3{
     font-size: 30px;
 }
 
-.galeria article{
+.galeria {
     border: 20px;
     border-color: #db607f;
 }
 
-.galeria article img{
+.galeria img{
     max-width: 100%;
     height:auto;
 }
 
 
 
-.produ{
-    width: 20%;
-    height: auto;
-    margin: 10px;
-    padding: 10px;
-    background-color: indianred;
-    border-color: black;
-    display:inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
+.produ {
+    margin-bottom: 20px; /* Espacio entre los productos */
 }
-.produ img{
-    width: 100%;
+
+.produ img {
+    max-width: 100%;
     height: auto;
+}
+
+.produ p {
+    font-size: 16px;
+    color: #333;
 }
 
 .nosotrosFondo{
@@ -169,27 +166,18 @@ p{
 
 }
 
-.mapa{
-    width: 40%;
-    height: 100%;
+.mapa {
     margin: 10px;
     padding: 10px;
     background-color: indianred;
-    display:inline-block;
-    vertical-align: top;
     box-sizing: border-box;
     text-align: center;
-    
 }
 
-.form{
-    width: 40%;
-    height: 300px;
+.form {
     margin: 10px;
     padding: 10px;
     background-color: indianred;
-    display:inline-block;
-    vertical-align: top;
     box-sizing: border-box;
     text-align: center;
 }
@@ -206,7 +194,7 @@ footer{
 .redes a{
     color: #db607f;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
 
 
 }
